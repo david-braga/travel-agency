@@ -1,7 +1,6 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
-import './Navbar.css';
-// import '../../server/public/main.css'
+
 
 function Navbar() {
 
@@ -30,8 +29,8 @@ function Navbar() {
                         </Link>
                     </li>
                     <li className='nav-item'>
-                        <Link to='/signup' className='nav-links'>
-                            Sign Up
+                        <Link to='/book-now' className='nav-links'>
+                            Book Now
                         </Link>
                     </li>
                 </div>
