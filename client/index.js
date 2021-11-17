@@ -1,6 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import { BrowserRouter as Router } from 'react-router-dom'
+import App from './components/App'
 
 
 import Home from './components/Home'
@@ -8,7 +9,7 @@ import Home from './components/Home'
 document.addEventListener('DOMContentLoaded', () => {
   ReactDOM.render(
     <Router>
-      <Home />
+      <App />,
     </Router>,
     document.getElementById('app')
   )

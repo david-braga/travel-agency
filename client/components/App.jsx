@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { Routes, Route } from 'react-router-dom'
-import Home from './components/Home'
+import Home from './Home'
+import Navbar from './Navbar'
 
 
 
@@ -8,7 +9,7 @@ const App = () => {
 
   return (
     <>
-      <h1>Adventure Awaits</h1>
+      <Navbar />
       <Routes>
         <Route path='/' exact element={<Home />} />
       </Routes>
