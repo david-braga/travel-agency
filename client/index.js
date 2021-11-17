@@ -1,11 +1,15 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+import { BrowserRouter as Router } from 'react-router-dom'
 
-import App from './components/App'
+
+import Home from './components/Home'
 
 document.addEventListener('DOMContentLoaded', () => {
   ReactDOM.render(
-    <App />,
+    <Router>
+      <Home />
+    </Router>,
     document.getElementById('app')
   )
 })
