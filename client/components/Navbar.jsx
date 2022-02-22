@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { Button } from './Button';
 import { Link } from 'react-router-dom';
+import HeroSection from './HeroSection';
+import Cards from './Cards'
+import CardItem from './CardItem';
 
 
 function Navbar() {
@@ -44,7 +47,7 @@ function Navbar() {
                         </li>
                         <li className='nav-item'>
                             <Link
-                                to='/services'
+                                to={<Cards />}
                                 className='nav-links'
                                 onClick={closeMobileMenu}
                             >
