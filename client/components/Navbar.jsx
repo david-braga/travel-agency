@@ -51,7 +51,7 @@ function Navbar() {
                                 className='nav-links'
                                 onClick={closeMobileMenu}
                             >
-                                Services
+                                Cruises
                             </Link>
                         </li>
                         <li className='nav-item'>
@@ -60,7 +60,7 @@ function Navbar() {
                                 className='nav-links'
                                 onClick={closeMobileMenu}
                             >
-                                Products
+                                Flights
                             </Link>
                         </li>
 
@@ -70,7 +70,7 @@ function Navbar() {
                                 className='nav-links'
                                 onClick={closeMobileMenu}
                             >
-                                <Button buttonStyle='btn--outline'>BOOK NOW</Button>
+                                <Button buttonStyle='btn--outline'>GET A QUOTE</Button>
                             </Link>
                         </li>
                     </ul>
